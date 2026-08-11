@@ -20,5 +20,11 @@ public class Fundamentos {
         est1.edad= 17;
         //cambia edad de 15 a 17
         est1.setNombre("marcos");
+        
+        docente doc1= new docente("juan","matematicas",40);
+        
+        doc1.nombre="juanito";
+        doc1.especialidad="calculo";
+        doc1.edad=45;
     }
 }
